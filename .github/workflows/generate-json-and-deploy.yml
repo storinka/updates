@@ -13,8 +13,7 @@ jobs:
         with:
           token: ${{secrets.GITHUB_TOKEN}}
       - run: |
-          git checkout gh-pages
-          git merge master
+          git checkout -b gh-pages
           yarn install
           node build.js
-          git push origin gh-pages
+          git push origin gh-pages --force
