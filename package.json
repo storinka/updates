@@ -1,0 +1,14 @@
+{
+  "name": "@storinka/update",
+  "version": "1.0.0",
+  "description": "Storinka Updates list.",
+  "main": "build.js",
+  "repository": "https://github.com/storinka/updates",
+  "author": "Davyd Kohut <expexes@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "marked": "^2.1.3"
+  }
+}
