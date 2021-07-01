@@ -1,2 +1,3 @@
-# updates
+# Storinka Updates
+
 Updates description list
