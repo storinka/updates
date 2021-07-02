@@ -39,12 +39,12 @@ readdir(updatesFolder)
                 return bDate - aDate;
             });
 
-            fs.writeFile('updates.json', JSON.stringify(updates), function (err) {
+            fs.writeFile('public/updates.json', JSON.stringify(updates), function (err) {
                 if (err) {
                     throw err;
                 }
 
-                console.log('updates.json generation completed!');
+                console.log('public/updates.json generation completed!');
             });
 
         });
