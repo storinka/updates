@@ -15,7 +15,7 @@ jobs:
       - run: |
           git fetch origin gh-pages
           git checkout gh-pages
-          git merge master
+          git merge main
           yarn install
           node build.js
           git config --global user.email "xxx@xxx.xxx"
