@@ -16,4 +16,6 @@ jobs:
           git checkout -b gh-pages
           yarn install
           node build.js
+          git add .
+          git commit -m "rebuilt"
           git push origin gh-pages --force
